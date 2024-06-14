@@ -10,17 +10,29 @@
       integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
       crossorigin="anonymous"
     />
+    <style>
+      .img-fluid {
+        display: block;
+        margin: 0 auto;
+        padding: 5px;
+      }
+    </style>
   </head>
   <body>
-    <h1>A picture of a CROISSANTS🥐</h1>
+    <h1 class="text-center">A picture of a CROISSANTS🥐</h1>
     <br />
-    <img
-      src="https://img.delicious.com.au/cqtj-J0D/del/2015/12/cornetti-italian-croissants-24713-1.jpg"
-    />
-    <div>
-      <a href="/">HomePage</a>
-      <a href="/photo.html">Photo</a>
-      <a href="/contact.html">Contact</a>
+    <div class="picture">
+      <img
+        src="https://img.delicious.com.au/cqtj-J0D/del/2015/12/cornetti-italian-croissants-24713-1.jpg"
+        width="700"
+        class="img-fluid"
+      />
+      <br />
+    </div>
+    <div class="text-center">
+      <a href="/" class="m-5">HomePage</a>
+      <a href="/photo.html" class="m-5">Photo</a>
+      <a href="/contact.html" class="m-5">Contact</a>
     </div>
   </body>
 </html>
